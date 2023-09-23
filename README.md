@@ -55,13 +55,15 @@ Completable with minor issues
 1899 London Gothic Demo - Sound with .link files (zug-nachts-entfernt, zzz-ripper, demon-fly-by-1) are not supported  
 Deep Dreams - uses a custom RPG_RT with a custom font that is not loaded  
 Don's Adventures - Russian language for the encoding not detected (English/Russian game)  
+Helen's Mysterious Castle - Boss defeat animation not correctly displayed (use of out of range transparency values, see section Transparency overflow on a picture on issue [#1486](https://github.com/EasyRPG/Player/issues/1486))  
 Gray Garden The - midi struggles sometimes for the Blancblack Castle  
 Grimm's Hollow (Ja) - ExFont not loaded since the real executable is not the RPG_RT.exe present; Display issue when attacking (see issue [#2972](https://github.com/EasyRPG/Player/issues/2972))  
 Grimm's Hollow (Zh_Cn) - ExFont not loaded since the real executable is not the RPG_RT.exe present  
 Muma Rope (v4) - The title picture is incorrectly displayed due to being interlaced (see issue [#2984](https://github.com/EasyRPG/Player/issues/2984))   
 Muma Rope (v32.1 and +) - The R-Maze map is not randomized due to the lack of generate dungeon (see issue [#2474](https://github.com/EasyRPG/Player/issues/2474)); the Black Water sounds are crispy (see issue [#3045](https://github.com/EasyRPG/Player/issues/3045))  
 [Mikan Muzou (En) (v0.2)](http://www.mediafire.com/file/40ua4esu1l79get/) - Japanese language for the encoding not detected (English translation of a Japanese game)  
-[Kōmori-san no Hana Monogatari (こうもりさんの花物語)](https://w.atwiki.jp/viprpg23s/pages/21.html) - Japanese language for the encoding not detected (the game seems to only use Japanese for the title of the window, no filenames or nothing in-game); issue when playing some midi (e.g. map and levels) without a soundfont on Windows (see issue [#2910](https://github.com/EasyRPG/Player/issues/2910))  
+Kodomo-tachi no kuni Magic Children (子供たちの国-Magic Children-) - character ㌧ not displayed with the internal font  
+[Baty's flower story (こうもりさんの花物語)](https://w.atwiki.jp/viprpg23s/pages/21.html) - Japanese language for the encoding not detected (the game seems to only use Japanese for the title of the window, no filenames or nothing in-game); issue when playing some midi (e.g. map and levels) without a soundfont on Windows (see issue [#2910](https://github.com/EasyRPG/Player/issues/2910))  
 Octillery Social Test DX - uses Languages folder and not Language, no longer compatible since version 0.8.1 (EasyRPG game)  
 Outotsu Yume (v0.01) - Invalid skill on title screen displayed (see issue [#2977](https://github.com/EasyRPG/Player/issues/2977))  
 Project Rose - a Movie is played in-game (see issue [#1036](https://github.com/EasyRPG/Player/issues/1036))  
