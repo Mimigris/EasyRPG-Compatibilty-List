@@ -1,4 +1,4 @@
-# EasyRPG Compatibilty List
+# EasyRPG Compatibility List
 Compatibility list of games when using the EasyRPG Player.  
 In case a game does not work as you may want, consider using the executable given with your game, since not every RPG_RT patch or custom EasyRPG build will be able to be supported.  
 Completable means that the game can be completed or that the entirety of the game can be seen if there is no ending (or if the game has a critical bug blocking a part of the content even in the RPG_RT).  
@@ -40,6 +40,7 @@ Someday
 Super Mario Death Row 2 - Shroomshank Redemption  
 Super Mario Death Row!  
 The Gray Garden  
+Toilet in Wonderland  
 Yume Nikki  
 Yume no Kirby  
 Zelda The Oak Quest  
@@ -63,7 +64,7 @@ Muma Rope (v4) - The title picture is incorrectly displayed due to being interla
 Muma Rope (v32.1 and +) - The R-Maze map is not randomized due to the lack of generate dungeon (see issue [#2474](https://github.com/EasyRPG/Player/issues/2474)); the Black Water sounds are crispy (see issue [#3045](https://github.com/EasyRPG/Player/issues/3045))  
 [Mikan Muzou (En) (v0.2)](http://www.mediafire.com/file/40ua4esu1l79get/) - Japanese language for the encoding not detected (English translation of a Japanese game)  
 Kodomo-tachi no kuni Magic Children (子供たちの国-Magic Children-) - character ㌧ not displayed with the internal font  
-[Baty's flower story (こうもりさんの花物語)](https://w.atwiki.jp/viprpg23s/pages/21.html) - Japanese language for the encoding not detected (the game seems to only use Japanese for the title of the window, no filenames or nothing in-game); issue when playing some midi (e.g. map and levels) without a soundfont on Windows (see issue [#2910](https://github.com/EasyRPG/Player/issues/2910))  
+[Baty's flower story (こうもりさんの花物語)](https://w.atwiki.jp/viprpg23s/pages/21.html) - Japanese language for the encoding not detected (the game seems to only use Japanese for the title of the window, no filenames or nothing in-game)
 Octillery Social Test DX - uses Languages folder and not Language, no longer compatible since version 0.8.1 (EasyRPG game)  
 Outotsu Yume (v0.01) - Invalid skill on title screen displayed (see issue [#2977](https://github.com/EasyRPG/Player/issues/2977))  
 Project Rose - a Movie is played in-game (see issue [#1036](https://github.com/EasyRPG/Player/issues/1036))  
@@ -71,10 +72,9 @@ Steamed Hams, but it's RPGMAKER2003! - a Movie is played in-game (see issue [#10
 [Rumia in the darkness (Ja)](https://store.steampowered.com/app/1060240/Rumia_in_the_darkness/) - Simplified Chinese for the encoding not detected (Even if it's a Japanese language game, the encoding should be Simplified Chinese)  
 [Tetris](https://www.rpg-maker.fr/index.php?page=jeux&id=206) - Music 8 Gerudo Song can struggle to play  
 The Adventures of Meatball Dog - Invalid party member when starting a new game (see issue [#3008](https://github.com/EasyRPG/Player/issues/3008))  
-Toilet in Wonderland - issue when playing some midi (forest map and during the ending of the game) without a soundfont on Windows (see issue [#2910](https://github.com/EasyRPG/Player/issues/2910))  
 [Ultra Violet (Ja)](https://twitter.com/Switch_foot2312/status/1177564993375522822) - \\ character incorrectly displayed as a \\ instead of a yen in the Shrine (see issue [#3066](https://github.com/EasyRPG/Player/issues/3066))  
 Uneven Dream - Incorrect tile ID incorrectly handled in a specific map (see issue [#3070](https://github.com/EasyRPG/Player/issues/3070))  
-Yume 2kki - Shake Screen 0.0 second may cause issue when waking up if the screen was shaking (see issue [#3081](https://github.com/EasyRPG/Player/issues/3081)); the autoplay feature of the Sound Room does not work correctly due to an issue with MIDI play ticks (see issue [#3047](https://github.com/EasyRPG/Player/issues/3047)); some audio bitrates cause issues to the RPG_RT making the Player have different results (see issue [#3044](https://github.com/EasyRPG/Player/issues/3044)); more colors than 256 leading to unintended display issues (see issue [#3043](https://github.com/EasyRPG/Player/issues/3043)); Some System have their $ window transparency incorrect (see issue [#3012](https://github.com/EasyRPG/Player/issues/3012)); visual issues when moving pictures at the same time on the edges (see issue [#2928](https://github.com/EasyRPG/Player/issues/2928)); some transitions cause crashes on mobile (see issue [#2593](https://github.com/EasyRPG/Player/issues/2593))  
+Yume 2kki - The autoplay feature of the Sound Room does not work correctly due to an issue with MIDI play ticks (see issue [#3047](https://github.com/EasyRPG/Player/issues/3047)); some audio bitrates cause issues to the RPG_RT making the Player have different results (see issue [#3044](https://github.com/EasyRPG/Player/issues/3044)); more colors than 256 leading to unintended display issues (see issue [#3043](https://github.com/EasyRPG/Player/issues/3043)); Some System have their $ window transparency incorrect (see issue [#3012](https://github.com/EasyRPG/Player/issues/3012)); visual issues when moving pictures at the same time on the edges (see issue [#2928](https://github.com/EasyRPG/Player/issues/2928)); some transitions cause crashes on mobile (see issue [#2593](https://github.com/EasyRPG/Player/issues/2593))  
 [Yume Nikki 16_9](https://poyouli.itch.io/yumenikki169) - loop command lags a lot the player on the title screen, use of Rewrite Map (Maniac command) as an easter egg somewhere  
 
 
@@ -86,6 +86,7 @@ Alive - patch to skip the title screen not supported
 Barkley, Shut Up And Jam Gaiden - Incorrect timing for the actions while in battle (see issue [#2991](https://github.com/EasyRPG/Player/issues/2991))  
 Blackmoon Prophecy Plus - ExFont not loaded  
 Corpse Casino - uses unsupported commands of the Maniac Patch  
+Dragon Ball Z: Legend of Z RPG - uses DynRPG and has stats higher than the usual  
 Dollmaker and the 100 Alices - specific fonts used for string pictures  
 Ex.Emi - more colors than 256 leading to unintended display issues (see issue [#3043](https://github.com/EasyRPG/Player/issues/3043))  
 Farethere City (En) - a Movie is played in-game (see issue [#1036](https://github.com/EasyRPG/Player/issues/1036))  
@@ -137,7 +138,6 @@ Nightmare Game Secret Memory (Zh_Cn) - requires a password in-game that cannot b
 
 Unplayable
 ========
-Dragon Ball Z: Legend of Z RPG - Crashes when launching a battle (see issue [#3086](https://github.com/EasyRPG/Player/issues/3086)), uses DynRPG and has stats higher than the usual  
 [Frozen Triggers (風呂鳥)](https://w.atwiki.jp/vipkohaku2021/pages/122.html) - Maniac: Expression contains unsupported operation 34 & 67; Font no found; Conditional Branch 16 unsupported; Key Input Process EX; Global Save; the game is stuck on startup  
 Oneshot - Uses a custom RPG_RT made specifically for the game; the continuous build does not support it but a [fork is available](https://github.com/20kdc/EasyRPG-Player-OneShot-Legacy)  
 [Rogue](https://mackvalentine.itch.io/rm-rogue) - uses a custom build of the Player with new commands making it not compatible  
