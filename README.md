@@ -68,7 +68,7 @@ Kodomo-tachi no kuni Magic Children (子供たちの国-Magic Children-) - chara
 Octillery Social Test DX - uses Languages folder and not Language, no longer compatible since version 0.8.1 (EasyRPG game)  
 Outotsu Yume (v0.01) - Invalid skill on title screen displayed (see issue [#2977](https://github.com/EasyRPG/Player/issues/2977))  
 Project Rose - a Movie is played in-game (see issue [#1036](https://github.com/EasyRPG/Player/issues/1036))  
-Steamed Hams, but it's RPGMAKER2003! - a Movie is played in-game (see issue [#1036](https://github.com/EasyRPG/Player/issues/1036)); game needs to be extracted since the zip file has two times the game folder with the same name  
+Steamed Hams, but it's RPGMAKER2003! - a Movie is played in-game (see issue [#1036](https://github.com/EasyRPG/Player/issues/1036));  
 [Rumia in the darkness (Ja)](https://store.steampowered.com/app/1060240/Rumia_in_the_darkness/) - Simplified Chinese for the encoding not detected (Even if it's a Japanese language game, the encoding should be Simplified Chinese)  
 [Tetris](https://www.rpg-maker.fr/index.php?page=jeux&id=206) - Music 8 Gerudo Song can struggle to play  
 The Adventures of Meatball Dog - Invalid party member when starting a new game (see issue [#3008](https://github.com/EasyRPG/Player/issues/3008))  
@@ -84,7 +84,6 @@ Playable with minor issues
 8 Bit Quest - title screen not skipped (could be more)  
 Alive - patch to skip the title screen not supported  
 Barkley, Shut Up And Jam Gaiden - Incorrect timing for the actions while in battle (see issue [#2991](https://github.com/EasyRPG/Player/issues/2991))  
-Blackmoon Prophecy Plus - ExFont not loaded  
 Corpse Casino - uses unsupported commands of the Maniac Patch  
 Dragon Ball Z: Legend of Z RPG - uses DynRPG and has stats higher than the usual  
 Dollmaker and the 100 Alices - specific fonts used for string pictures  
@@ -133,6 +132,7 @@ Labyrinth of Poverty (Zh_Cn) - requires a password in-game that cannot be typed 
 Muma Rope (v32.0 and -) - The R-Maze map crashes the game on visit due to the lack of generate dungeon (see issue [#2474](https://github.com/EasyRPG/Player/issues/2474)); the Black Water sounds are crispy (see issue [#3045](https://github.com/EasyRPG/Player/issues/3045))  
 Nehan II Darkness Fantasy - Invalid IDAT image for the ChipSet making your character not being able to be seen (see issue [#856](https://github.com/EasyRPG/Player/issues/856))  
 Nightmare Game Secret Memory (Zh_Cn) - requires a password in-game that cannot be typed due to the keyboard not being supported (see issues [#2522](https://github.com/EasyRPG/Player/issues/2522) and [#2656](https://github.com/EasyRPG/Player/issues/2656))  
+[The Gray Garden (Vi)](https://gametungtrai.blogspot.com/2023/10/blog-post_21.html) - Text not properly displayed due to the use of a different font for some characters  
 [THUNDER WINDY](https://viprpg2020kohaku.xxxxxxxx.jp/entry16.html) - Maniac patch game, Set Game Option used to make the game be faster (so extremely slow on the Player), Change Picture IDs used  
 
 
